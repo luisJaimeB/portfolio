@@ -1,0 +1,5 @@
+# Normalizar saltos de línea en archivos CSS
+*.css text eol=lf
+
+# Opcional: Normalizar todos los archivos
+* text=auto
