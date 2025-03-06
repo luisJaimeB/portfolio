@@ -1,14 +1,14 @@
 <template>
-        <header class="tmp-header-area-start header-one header--sticky header--transparent">
+    <header class="tmp-header-area-start header-one header--sticky header--transparent">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="header-content">
                         <div class="logo">
-                            <a href="index.html">
+                            <router-link to="/">
                                 <img class="logo-dark" src="../assets/images/logo/white-logo-reeni-3.png" alt="Reeni - Personal Portfolio HTML Template for developers and freelancers">
                                 <img class="logo-white" src="../assets/images/logo/logo-white.png" alt="Reeni - Personal Portfolio HTML Template for developers and freelancers">
-                            </a>
+                            </router-link>
                         </div>
                         <nav class="tmp-mainmenu-nav d-none d-xl-block">
                             <ul class="tmp-mainmenu">
@@ -70,7 +70,7 @@
                         <div class="tmp-header-right">
                             <div class="social-share-wrapper d-none d-md-block">
                                 <div class="social-link">
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/delectuslab/"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
                                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
